@@ -6,12 +6,36 @@
 
   <groupId>io.github.nymroad</groupId>
   <artifactId>projectx</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
 
-  <name>projectx</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
-
+  <name>NymRoad Project-X</name>
+  <description>Test module</description>
+  <url>https://github.com/nymroad/projectx</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>https://github.com/nymroad/projectx</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+  <issueManagement>
+		<url>https://github.com/nymroad/projectx/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+  <developers>
+		<developer>
+			<email>mozesn@yahoo.co.uk</email>
+			<name>NymRoad</name>
+			<url>https://github.com/nymroad</url>
+			<id>mozesn</id>
+		</developer>
+	</developers>
+  <scm>
+    <connection>scm:git:git:https://github.com/nymroad/projectx.git</connection>
+    <developerConnection>scm:git:git@github.com:nymroad/projectx.git</developerConnection>
+    <url>https://github.com/nymroad/projectx</url>
+  </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>

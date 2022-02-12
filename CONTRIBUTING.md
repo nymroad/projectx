@@ -19,6 +19,14 @@ mvn package
 
 ### Prerequisite
 
+Generate gpg key
+
+```shell
+gpg --gen-key
+gpg --list-keys
+gpg --keyserver keyserver.ubuntu.com --send-keys <key>
+```
+
 Create file .m2/settings.xml
 
 ```xml
